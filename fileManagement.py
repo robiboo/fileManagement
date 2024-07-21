@@ -82,6 +82,7 @@ class FileHandler(FileSystemEventHandler):
 if __name__ == "__main__":
    
     #actively listen for file system events and react to them
+    #https://pythonhosted.org/watchdog/quickstart.html#quickstart
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S')
