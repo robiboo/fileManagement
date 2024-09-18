@@ -10,7 +10,7 @@ If a duplicate file already exists, it renames the new file to ensure uniqueness
 ## Key Features
   - **Real-time Monitoring:** The program listens for file system events in a specified directory and reacts instantly to new files.
   - **Automatic File Organization:** Incoming files are categorized and moved into directories based on their type (Image, Video, Audio, Document).
-  - **Duplicate Handling:** If a file with the same name exists, the program renames the incoming file (e.g, **`file.txt`** becomes **`file(1)`.txt **.
+  - **Duplicate Handling:** If a file with the same name exists, the program renames the incoming file (e.g, **`file.txt`** becomes **`file(1).txt`**.
 
 ## Methods:
   - `on_modified`:
